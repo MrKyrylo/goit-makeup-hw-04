@@ -62,6 +62,7 @@ body {
     display: inline-block;
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-item:hover {
@@ -83,7 +84,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .general-contact:hover {
@@ -220,6 +221,7 @@ body {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .p-footer {
@@ -506,4 +508,37 @@ body {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-networks-item {
+    width: 40px;
+    height: 40px;
+}
+
+.social-network-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-network-link:hover {
+    background-color: #404bbf;
+}
+
+.social-network-link:focus {
+    background-color: #404bbf;
+}
+
+.icon-link {
+    fill:  #f4f4fd;
 }
