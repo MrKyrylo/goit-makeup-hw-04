@@ -623,7 +623,6 @@ body {
 .footer-main {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .social-media-footer {
@@ -634,6 +633,10 @@ body {
     color: var(--white);
     margin-bottom: 16px;
 
+}
+
+.footer-main-for-link-and-paragraph {
+    margin-right: 120px;
 }
 
 .social-media-list-footer {
