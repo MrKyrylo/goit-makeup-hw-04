@@ -626,13 +626,12 @@ body {
 }
 
 .social-media-footer {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white);
-    margin-bottom: 16px;
-
 }
 
 .footer-main-for-link-and-paragraph {
