@@ -718,8 +718,6 @@ body {
 }
 
 .advantages-link:hover,
-.fixed-paragraph-portfolio:hover,
-.advantages-link:focus,
 .fixed-paragraph-portfolio:focus {
     transform: translateY(0%);
 }
@@ -807,12 +805,32 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.social-media-link-main {
+    height: 100%;
+    width: 100%;
+    background-color: var(--blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link-main:hover {
+    color: #404BBF
+    ;
+}
+
+.social-media-link-main:focus {
+    color: #404BBF
+}
+
 .social-media-link:hover {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 .social-media-link:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 .svg-footer {
