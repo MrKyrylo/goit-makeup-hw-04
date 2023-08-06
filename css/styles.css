@@ -702,7 +702,7 @@ body {
     overflow: hidden;
 }
 
-.fixed-paragraph-portfolio {
+.decorate-p {
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -717,11 +717,11 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.advantages-link:hover .fixed-paragraph-portfolio:hover {
+.advantages-link:hover .decorate-p {
     transform: translateY(0%);
 }
 
-.advantages-link:focus .fixed-paragraph-portfolio:focus {
+.advantages-link:hover .decorate-p {
     transform: translateY(0%);
 }
 
@@ -815,15 +815,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-link-main:hover {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .social-media-link-main:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .social-media-link:hover {
