@@ -717,11 +717,13 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.advantages-link:hover,
-.fixed-paragraph-portfolio:focus {
+.advantages-link:hover .fixed-paragraph-portfolio:hover {
     transform: translateY(0%);
 }
 
+.advantages-link:focus .fixed-paragraph-portfolio:focus {
+    transform: translateY(0%);
+}
 
 /* Основна сторінка Social Media 4 секція */
 
