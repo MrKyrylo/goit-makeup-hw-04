@@ -477,6 +477,18 @@ body {
     row-gap: 48px;
 }
 
+.advantages-link {
+    display: block;
+}
+
+.advantages-link:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.advantages-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .advantages-item {
     display: block;
     flex-basis: calc((100% - 48px) / 3);
@@ -615,7 +627,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 408;
+    width: 408px;
     min-height: 584px;
     background: #fcfcfc;
     box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -694,55 +706,6 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-container {
-    display: flex;
-    align-items: baseline;
-}
-
-.footer-container-for-logo-and-paragraph {
-    margin-right: 120px;
-}
-
-.social-media-portfolio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--white);
-    margin-bottom: 16px;
-}
-
-.ul-footer {
-    display: flex;
-    gap: 16px;
-}
-
-.social-media-item-portfolio {
-    width: 40px;
-    height: 40px;
-}
-
-.social-media-link {
-    height: 100%;
-    width: 100%;
-    color: var(--blue);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.social-media-link:hover {
-    background-color: #31d0aa;
-}
-
-.social-media-link:focus {
-    background-color: #31d0aa;
-}
-
-.svg-footer-portfolio {
-    fill: var(--pretty)
-}
 
 /* Основна сторінка Social Media 4 секція */
 
@@ -830,7 +793,61 @@ body {
 }
 
 .svg-footer {
-    fill: var(--gray);
+    fill: rgb(0, 0, 0)
 }
 
+.social-media-item-footer {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-container-for-logo-and-paragraph {
+    margin-right: 120px;
+}
+
+.ul-footer {
+    display: flex;
+    gap: 16px;
+}
+
+.social-media-item-portfolio {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media-link {
+    height: 100%;
+    width: 100%;
+    color: var(--blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-link:hover {
+    background-color: #31d0aa;
+}
+
+.social-media-link:focus {
+    background-color: #31d0aa;
+}
+
+.svg-footer-portfolio {
+    fill: var(--pretty)
+}
 /* Футер мейна та портфоліо */
