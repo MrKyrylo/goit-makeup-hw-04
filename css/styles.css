@@ -702,7 +702,7 @@ body {
     overflow: hidden;
 }
 
-.decorate-p {
+.paragraph-in-container-for-photo {
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -717,11 +717,11 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.advantages-link:hover .decorate-p {
+.advantages-link:hover .paragraph-in-container-for-photo {
     transform: translateY(0%);
 }
 
-.advantages-link:hover .decorate-p {
+.advantages-link:hover .paragraph-in-container-for-photo {
     transform: translateY(0%);
 }
 
@@ -807,7 +807,7 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media-link-main {
+.social-media-link-forth-section {
     height: 100%;
     width: 100%;
     background-color: var(--blue);
@@ -817,11 +817,11 @@ body {
     justify-content: center;
 }
 
-.social-media-link-main:hover {
+.social-media-link-forth-section:hover {
     background-color: #404bbf;
 }
 
-.social-media-link-main:focus {
+.social-media-link-forth-section:focus {
     background-color: #404bbf;
 }
 
