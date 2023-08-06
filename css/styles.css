@@ -819,12 +819,11 @@ body {
 }
 
 .social-media-link-main:hover {
-    color: #404BBF
-    ;
+    color: #404bbf;
 }
 
 .social-media-link-main:focus {
-    color: #404BBF
+    color: #404bbf;
 }
 
 .social-media-link:hover {
